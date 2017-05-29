@@ -3,18 +3,24 @@
 <head>
   <meta charset="utf-8">
   <title>Greeting</title>
+  <link type="text/css" rel="stylesheet" href="greet.css">
 </head>
 <body>
-Name : <input type="text" id="input" >
-  <input type=button id="btn" value="Greet" onclick="greet()">
-  <p id="output"></p>
+<div class="header">
+  <h1>Greetings</h1>
+</div>
+<div class ="container">
+  Name : <input type="text" id="input" >
+  <p class = counter></p>
   <div class= radio>
-    <input type="radio" name="language" value="English">English
+      <input type="radio" name="language" value="English">English
       <input type="radio" name="language" value="Espanol">Espanol
       <input type="radio" name="language" value="Setswana">Setswana
-    <input type="radio" name="language" value="TshiVenda">TshiVenda
+      <input type="radio" name="language" value="TshiVenda">TshiVenda
   </div>
-  <p class = counter></p>
-  <script src="greet.js"></script>
+  <input type=button id="btn" value="Greet" onclick="greet()">
+  <p id="output"></p>
+</div>
+  <script src="greet.js"> </script>
 </body>
 </html>

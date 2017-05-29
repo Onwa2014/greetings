@@ -1,0 +1,37 @@
+.header {
+  /*background-color:#000000;*/
+  font-family: "Times New Roman", Times, serif;
+  color:#FF3399;
+  font-size: 300%;
+  margin-left: 9em;
+  margin-right: 10em;
+}
+.counter {
+  font-size: 300%;
+  position: relative;
+  right:-6em;
+  margin-top: -0.8em;
+  /*float:right;*/
+
+}
+.container{
+   background-color:#000000;
+   font-family: "Times New Roman", Times, serif;
+   color:#FF3399;
+   /*font-size: 25px;*/
+   height:auto;
+   width: auto;
+   opacity: 0.80;
+   margin-left:20em;
+   margin-right: 20em;
+   padding-left: 9em;*/
+  }
+  #btn {
+    margin-bottom: 1.5em;
+  }
+  #input {
+    margin-top: 1.5em;
+  }
+  #output {
+    font-size: 200%
+  }
